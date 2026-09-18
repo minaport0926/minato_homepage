@@ -11,6 +11,17 @@ def home():
     <head>
         <title>みなとのホームページ</title>
         <style>
+            /* ★ フォントファイルの読み込み設定 */
+            @font-face {
+                font-family: 'KeiFont';
+                src: url('/static/keifont.ttf') format('truetype');
+            }
+
+            /* ★ 赤色の見出し（h1, h3）に「けいふぉんと」を適用 */
+            h1, h3 {
+                font-family: 'KeiFont', sans-serif;
+            }
+
             /* ★ 青色の立体ボタンのスタイル */
             .yt-button {
                 display: inline-block;
