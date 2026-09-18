@@ -133,19 +133,18 @@ def home():
 
             </div>
 
-            <!-- ★ 追加：ブログゾーン -->
+            <!-- ★ ブログゾーン -->
             <div class='blog-card'>
                 <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>ブログ</h3>
                 
                 <div class='blog-item'>
-                    <span class='blog-date'>2026.09.18</span>
-                    <span class='blog-title'>ホームページを開設しました！</span>
+                    <span class='blog-date'>2026.08.30</span>
+                    <span class='blog-title'>ホームページ開設！</span>
                     <p style='margin: 5px 0 0; font-size: 14px; color: #555;'>
                         みなとの公式ホームページへようこそ！これから動画の更新情報や日常のことを書いていくので、ぜひチェックしてね！
                     </p>
                 </div>
 
-                <!-- 記事が増えたらここに追加できます -->
             </div>
 
         </div>
