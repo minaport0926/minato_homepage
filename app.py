@@ -17,9 +17,15 @@ def home():
                 src: url('/static/keifont.ttf') format('truetype');
             }
 
-            /* ★ 赤色の見出し（h1, h3）に「けいふぉんと」を適用 */
+            /* ★ 見出し（h1, h3）に「けいふぉんと」を適用 */
             h1, h3 {
                 font-family: 'KeiFont', sans-serif;
+            }
+
+            /* ★ h3（プロフィール・おすすめ動画）の太さを自然にして、少しだけ大きく */
+            h3 {
+                font-weight: normal;
+                font-size: 24px;
             }
 
             /* ★ 青色の立体ボタンのスタイル */
@@ -44,7 +50,7 @@ def home():
     </head>
     <body>
         <div style='text-align: center; background-color: #f0f8ff; min-height: 100vh; padding: 20px; box-sizing: border-box;'>
-            <!-- ★ 文字の色を元の赤色（#d32f2f）に戻しました -->
+            <!-- タイトル見出し -->
             <h1 style='color: #d32f2f;'>みなとのホームページ</h1>
             
             <p>
@@ -58,7 +64,6 @@ def home():
             <div style='display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; margin: 20px auto; max-width: 1000px;'>
                 
                 <div style='background-color: white; width: 100%; max-width: 450px; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: left; box-sizing: border-box;'>
-                    <!-- ★ 赤色に戻しました -->
                     <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>プロフィール</h3>
                     <ul style='line-height: 1.8; margin-bottom: 0;'>
                         <li><strong>好きな食べ物：</strong> じゃがいも、りんご</li>
@@ -69,7 +74,6 @@ def home():
                 </div>
 
                 <div style='background-color: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
-                    <!-- ★ 赤色に戻しました -->
                     <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>おすすめ動画</h3>
                     <iframe width="320" height="180" src="https://www.youtube.com/embed/hcundTaALEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>
                 </div>
