@@ -17,7 +17,7 @@ def home():
                 src: url('/static/keifont.ttf') format('truetype');
             }
 
-            /* ★ 見出し（h1, h3）に「けifぉんと」を適用 */
+            /* ★ 見出し（h1, h3）に「けいふぉんと」を適用 */
             h1, h3 {
                 font-family: 'KeiFont', sans-serif;
                 font-weight: normal;
@@ -29,7 +29,7 @@ def home():
                 margin-bottom: 10px;
             }
 
-            /* ★ h3（プロフィール・おすすめ動画）のサイズ */
+            /* ★ h3（プロフィール・おすすめ動画・ブログ）のサイズ */
             h3 {
                 font-size: 24px;
             }
@@ -51,6 +51,38 @@ def home():
             .yt-button:active {
                 transform: translateY(4px);
                 box-shadow: none;
+            }
+
+            /* ★ ブログ記事カードのスタイル */
+            .blog-card {
+                background-color: white;
+                max-width: 800px;
+                margin: 20px auto 0;
+                padding: 20px;
+                border-radius: 12px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                text-align: left;
+                box-sizing: border-box;
+            }
+            .blog-item {
+                border-bottom: 1px dashed #ccc;
+                padding: 12px 0;
+            }
+            .blog-item:last-child {
+                border-bottom: none;
+            }
+            .blog-date {
+                font-size: 14px;
+                color: #666;
+                margin-right: 10px;
+            }
+            .blog-title {
+                font-weight: bold;
+                color: #333;
+                text-decoration: none;
+            }
+            .blog-title:hover {
+                color: #1976d2;
             }
         </style>
     </head>
@@ -86,6 +118,7 @@ def home():
 
             </div>
             
+            <!-- 立ち絵エリア -->
             <div style='display: flex; justify-content: center; align-items: flex-end; gap: 40px; margin-top: 20px;'>
                 
                 <div style='display: flex; flex-direction: column; align-items: center;'>
@@ -99,6 +132,22 @@ def home():
                 </div>
 
             </div>
+
+            <!-- ★ 追加：ブログゾーン -->
+            <div class='blog-card'>
+                <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>ブログ</h3>
+                
+                <div class='blog-item'>
+                    <span class='blog-date'>2026.09.18</span>
+                    <span class='blog-title'>ホームページを開設しました！</span>
+                    <p style='margin: 5px 0 0; font-size: 14px; color: #555;'>
+                        みなとの公式ホームページへようこそ！これから動画の更新情報や日常のことを書いていくので、ぜひチェックしてね！
+                    </p>
+                </div>
+
+                <!-- 記事が増えたらここに追加できます -->
+            </div>
+
         </div>
     </body>
     </html>
