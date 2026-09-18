@@ -17,14 +17,20 @@ def home():
                 src: url('/static/keifont.ttf') format('truetype');
             }
 
-            /* ★ 見出し（h1, h3）に「けいふぉんと」を適用 */
+            /* ★ 見出し（h1, h3）に「けifぉんと」を適用 */
             h1, h3 {
                 font-family: 'KeiFont', sans-serif;
+                font-weight: normal;
             }
 
-            /* ★ h3（プロフィール・おすすめ動画）の太さを自然にして、少しだけ大きく */
+            /* ★ メインタイトル（みなとのホームページ）を大きく設定 */
+            h1 {
+                font-size: 40px;
+                margin-bottom: 10px;
+            }
+
+            /* ★ h3（プロフィール・おすすめ動画）のサイズ */
             h3 {
-                font-weight: normal;
                 font-size: 24px;
             }
 
