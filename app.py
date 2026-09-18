@@ -60,7 +60,7 @@ def home():
                 <div style='background-color: white; padding: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
                     <!-- ★ 赤色に戻しました -->
                     <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>おすすめ動画</h3>
-                    <iframe width="320" height="180" src="https://www.youtube.com/watch?v=hcundTaALEw&t=41s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/hcundTaALEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>
                 </div>
 
             </div>
