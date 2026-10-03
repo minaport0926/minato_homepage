@@ -139,6 +139,13 @@ def home():
                 
                 <!-- ★ 追加：最新の記事（9/18） -->
                 <div class='blog-item'>
+                    <span class='blog-date'>2026.09.28</span>
+                    <span class='blog-title'>動画投稿しました！</span>
+                    <p style='margin: 5px 0 0; font-size: 14px; color: #555;'>
+                        テトリスの動画です！ぜひ見てね！
+                    </p>
+                </div>
+                <div class='blog-item'>
                     <span class='blog-date'>2026.09.18</span>
                     <span class='blog-title'>動画投稿しました！</span>
                     <p style='margin: 5px 0 0; font-size: 14px; color: #555;'>
