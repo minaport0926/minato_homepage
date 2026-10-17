@@ -10,6 +10,8 @@ def home():
     <html>
     <head>
         <title>みなとのホームページ</title>
+        <!-- ★ タブの左側に表示されるアイコン（ファビコン） -->
+        <link rel="icon" href="/static/favicon.png">
         <style>
             /* ★ フォントファイルの読み込み設定 */
             @font-face {
@@ -137,7 +139,6 @@ def home():
             <div class='blog-card'>
                 <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>ブログ</h3>
                 
-                <!-- ★ 追加：最新の記事（9/18） -->
                 <div class='blog-item'>
                     <span class='blog-date'>2026.10.7</span>
                     <span class='blog-title'>動画投稿しました！</span>
