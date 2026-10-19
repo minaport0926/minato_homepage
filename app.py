@@ -137,8 +137,13 @@ def home():
 
             <!-- ★ ブログゾーン -->
             <div class='blog-card'>
-                <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>ブログ</h3>
-                
+                <h3 style='margin-top: 0; color: #d32f2f; text-align: center;'>ブログ</h3>                <div class='blog-item'>
+                    <span class='blog-date'>2026.10.18</span>
+                    <span class='blog-title'>動画投稿しました！</span>
+                    <p style='margin: 5px 0 0; font-size: 14px; color: #555;'>
+                        太鼓の達人の動画です！ぜひ見てね！
+                    </p>
+                </div>
                 <div class='blog-item'>
                     <span class='blog-date'>2026.10.7</span>
                     <span class='blog-title'>動画投稿しました！</span>
